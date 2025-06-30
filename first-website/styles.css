@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333333;
+    padding: 20px;
+  }
+
+  h1 {
+    color: #0077cc;
+  }
+
+  ul {
+    list-style-type: square;
+  }
+  button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+}

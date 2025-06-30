@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Website</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <h1>Welcome to Irving's Page!</h1>
+    <p>Click the button for a surprise!</p>
+    <button id="myButton">Click me!</button>
+    <p id="message"></p>
+    <script>
+        const button = document.getElementById('myButton');
+        const message = document.getElementById('message');
+
+        button.addEventListener('click', () => {
+            message.textContent = "Hello, Irving! Glad you're here.";
+        });        
+    </script>
+</body>
+
+</html>
